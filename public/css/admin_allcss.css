@@ -1,0 +1,82 @@
+.profile-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.icon-img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.info {
+	width: 75%;
+	height: 120px;
+	border: 1px solid #ddd;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.adminimg {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+@media screen and (min-width: 280px) {
+	.cnt {
+		margin-top: 50px;
+		margin-left: 65px;
+	}
+	.pnl {
+		margin-top: 5px;
+		width: 98%;
+		height: auto; 
+		margin-left: 2%
+	}
+	.category {
+		margin-left: 40%;
+	}
+	.tbl {
+		width: 60%;
+		margin-left: 5%;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 600px) {
+    .cnt {
+		margin-top: 50px;
+		margin-left: 65px;
+	}
+	.pnl {
+		margin-top: 5px;
+		width: 98%;
+		height: auto; 
+		margin-left: 2%
+	}
+	.category {
+		margin-left: 40%;
+	}
+	.tbl {
+		width: 60%;
+		margin-left: 20%;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.cnt {
+		margin-top: 50px;
+		margin-left: 175px;
+	}
+	.pnl {
+		margin-top: 36px;
+		width: 98%;
+		height: auto;
+	    margin-left: 3%;
+	}
+	.tbl {
+		width: 60%;
+		margin-left: 25%;
+		text-align: center;
+	}
+}
